@@ -1,10 +1,10 @@
-import re
+import re 
 import numpy as np
 import pandas as pd
 import logging
 from data_ingestion import read_from_web_CSV
 ### START FUNCTION 
-
+# classes
 class WeatherDataProcessor:
     def __init__(self, config_params, logging_level="INFO"): # Now we're passing in the confi_params dictionary already
         self.weather_station_data = config_params['weather_csv_path']
