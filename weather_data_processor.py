@@ -11,7 +11,7 @@ class WeatherDataProcessor:
         self.patterns = config_params['regex_patterns']
         self.weather_df = None  # Initialize weather_df as None or as an empty DataFrame
         self.initialize_logging(logging_level)
-
+###
     def initialize_logging(self, logging_level):
         logger_name = __name__ + ".WeatherDataProcessor"
         self.logger = logging.getLogger(logger_name)
