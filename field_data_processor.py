@@ -3,7 +3,7 @@ import pandas as pd
 from data_ingestion import create_db_engine, query_data, read_from_web_CSV
 import logging
 class FieldDataProcessor:
-# class
+# first class
     def __init__(self, config_params, logging_level="INFO"):
         self.db_path = config_params['db_path']
         self.sql_query = config_params['sql_query']
