@@ -6,7 +6,7 @@ logger = logging.getLogger('data_ingestion')
 # Set a basic logging message up that prints out a timestamp, the name of our logger, and the message
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-
+## engine (sql)
 def create_db_engine(db_path):
     """creates a SQLAlchemy engine for a database that can be used to conect to the database.
 
