@@ -40,7 +40,7 @@ class WeatherDataProcessor:
     def weather_station_mapping(self):
         self.weather_df = read_from_web_CSV(self.weather_station_data)
         self.logger.info("Successfully loaded weather station data from the web.") 
-        # Here, you can apply any initial transformations to self.weather_df if necessary.
+        # Here,  apply any initial transformations to self.weather_df if necessary.
 
     
     def extract_measurement(self, message):
